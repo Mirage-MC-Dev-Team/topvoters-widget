@@ -5,7 +5,7 @@ $(document).ready(function(){
 $.getJSON(url, function (rest) {
   //data is the JSON string
   var pl = "";
-  for (i = 0; 5 > i; i++) {
+  for (i = 0; 9 > i; i++) {
     pl = pl + "<p class='head' style='object-fit: none;margin:0;'><img class='head' src='https://crafatar.com/renders/head/"+ rest[i].uuid + "?scale=2'></img> #"+(i+1)+" "+rest[i].PlayerName+"<br>Monthly Votes: "+rest[i].MonthTotal+"</p>";
   }
   $("#rest").html(
