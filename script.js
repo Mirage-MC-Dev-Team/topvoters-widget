@@ -1,6 +1,6 @@
 //based on a pen by @robinselmer
 // includes a script from https://github.com/FoxInFlame/MinecraftColorCodes
-var url = "https://rest.miragefactions.com/votes";
+var url = "https://rest.mirage-mc.com/votes";
 $(document).ready(function(){
 $.getJSON(url, function (rest) {
   //data is the JSON string
